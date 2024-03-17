@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "python-flask-demo"
+version = "0.1.0"
+description = ""
+authors = ["18067697892 <@zbhr123087>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^3.0.0"
+python-dotenv = "^1.0.0"
+pydantic = "^2.5.1"
+pydantic_settings = "^2.1.0"
+dependency-injector = "^4.41.0"
+SQLAlchemy = "^2.0.23"
+psycopg2 = "^2.9.9"
+inflection = "^0.5.1"
+minio = "^7.2.3"
+black = "^24.2.0"
+isort = "^5.13.2"
+pylint = "^3.0.3"
+flake8 = "^7.0.0"
+pytest = "^8.0.1"
+celery = "^5.3.6"
+pillow = "^10.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
